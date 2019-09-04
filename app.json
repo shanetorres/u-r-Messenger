@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "u-r Messenger",
+    "description": "u-r Messenger is an anonymous chat app where users are assigned random characters and paired with eachother in order to form interesting and unique conversations.",
+    "slug": "youare",
+    "privacy": "public",
+    "sdkVersion": "30.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shanetorres.urmessenger"
+    }
+  }
+}
